@@ -124,13 +124,6 @@ task_2_linux_commands()
 # =============================================================================
 """
 TASK 3: Python (Add Two Numbers)
-Statement:
-This program adds two numbers
-num1 = 1.5
-num2 = 6.3
-sum = num1 + num2
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 3: Python - Add Two Predefined Numbers")
@@ -152,13 +145,6 @@ print('The sum of {0} and {1} is {2}'.format(num1, num2, sum_result))
 # =============================================================================
 """
 TASK 4: Python (Add Two Numbers from User Input)
-Statement:
-Store input numbers
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
-sum = float(num1) + float(num2)
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 4: Python - Add Two Numbers from User Input")
@@ -183,14 +169,6 @@ print('The sum of {0} and {1} is {2}'.format(num1, num2, total_sum))
 # =============================================================================
 """
 TASK 5: Python (Calculate Square Root)
-Statement:
-Python Program to calculate the square root
-num = 8
-# To take the input from the user
-# num = float(input('Enter a number: '))
-num_sqrt = num ** 0.5
-print('The square root of %0.3f is %0.3f'%(num, num_sqrt))
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 5: Python - Calculate the Square Root")
@@ -210,16 +188,6 @@ print('The square root of %0.3f is %0.3f' % (num, num_sqrt))
 # =============================================================================
 """
 TASK 6: Python (Square Root of Real or Complex Numbers)
-Statement:
-Find square root of real or complex numbers
-Importing the complex math module
-import cmath
-num = 1+2j
-# To take input from the user
-# num = eval(input('Enter a number: '))
-num_sqrt = cmath.sqrt(num)
-print('The square root of {0} is {1:0.3f}+{2:0.3f}j'.format(num, num_sqrt.real, num_sqrt.imag))
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 6: Python - Square Root of Real or Complex Numbers")
@@ -244,13 +212,7 @@ print('The square root of {0} is {1:0.3f}+{2:0.3f}j'.format(
 # =============================================================================
 """
 TASK 7: Python (Convert Temperature in Celsius to Fahrenheit)
-Statement:
-Python Program to convert temperature in celsius to fahrenheit
-celsius = 37.5
-# calculate fahrenheit
 fahrenheit = (celsius * 1.8) + 32
-print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius, fahrenheit))
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 7: Python - Convert Celsius to Fahrenheit")
@@ -271,16 +233,6 @@ print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' % (celsius, fah
 """
 TASK 8: Python (Find Area of Triangle using Heron's Formula)
 Statement:
-Python Program to find the area of triangle
-a = 5
-b = 6
-c = 7
-# calculate the semi-perimeter
-s = (a + b + c) / 2
-# calculate the area
-area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-print('The area of the triangle is %0.2f' %area)
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 8: Python - Area of Triangle (Heron's Formula)")
@@ -306,17 +258,6 @@ print('The area of the triangle with sides %0.1f, %0.1f, %0.1f is %0.2f' % (side
 TASK 9: Python (Solve Quadratic Equation ax^2 + bx + c = 0)
 Statement:
 Solve the quadratic equation ax**2 + bx + c = 0
-import cmath
-a = 1
-b = 5
-c = 6
-# calculate the discriminant
-d = (b**2) - (4*a*c)
-# find two solutions
-sol1 = (-b-cmath.sqrt(d))/(2*a)
-sol2 = (-b+cmath.sqrt(d))/(2*a)
-print('The solution are {0} and {1}'.format(sol1, sol2))
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 9: Python - Solve Quadratic Equation")
@@ -344,14 +285,6 @@ print('The solutions are {0} and {1}'.format(sol1, sol2))
 # =============================================================================
 """
 TASK 10: Python (Convert Kilometers to Miles)
-Statement:
-Taking kilometers input from the user
-kilometers = float(input("Enter value in kilometers: "))
-# conversion factor
-conv_fac = 0.621371
-# calculate miles
-miles = kilometers * conv_fac
-Week: 1
 """
 print("\n" + "=" * 70)
 print("TASK 10: Python - Convert Kilometers to Miles")
