@@ -1,10 +1,3 @@
-"""
-=============================================================================
-NAVTTC Artificial Intelligence (Machine Learning & Deep Learning) Tasks Sheet
-Tasks 51 to 56
-File: Task 51-56.py
-=============================================================================
-"""
 
 import numpy as np
 import pandas as pd
@@ -29,14 +22,7 @@ from sklearn.datasets import load_iris, load_breast_cancer
 """
 TASK 51: Machine Learning (Implement Linear Regression)
 Reference Link: https://stackabuse.com/linear-regression-in-python-with-scikit-learn/
-Statement:
-Implement Linear Regression in Python using scikit-learn:
-1. Prepare continuous numerical dataset (features & target)
-2. Train-test split
-3. Train LinearRegression model
-4. Inspect model coefficients and intercept
-5. Make predictions and evaluate using MAE, MSE, RMSE, and R2 score
-Week: 5
+
 """
 print("=" * 70)
 print("TASK 51: Machine Learning - Linear Regression Implementation")
@@ -86,14 +72,7 @@ TASK 52: Machine Learning (Perform Logistic Regression)
 Reference Links:
 - https://towardsdatascience.com/logistic-regression-using-python-sklearn-numpy-mnist-handwriting-recognition-matplotlib-a6b31e2b166a
 - https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
-Statement:
-Implement Logistic Regression for classification using scikit-learn:
-1. Load binary classification dataset
-2. Scale features using StandardScaler
-3. Train LogisticRegression model
-4. Predict classes and class probabilities
-5. Evaluate model using Confusion Matrix and Classification Report
-Week: 5
+
 """
 print("\n" + "=" * 70)
 print("TASK 52: Machine Learning - Logistic Regression Implementation")
@@ -135,14 +114,7 @@ print(classification_report(y_test_log, y_pred_log, target_names=cancer.target_n
 """
 TASK 53: Machine Learning (Exercise on Decision Tree)
 Reference Link: https://www.datacamp.com/community/tutorials/decision-tree-classification-python
-Statement:
-Implement Decision Tree Classification using scikit-learn:
-1. Load dataset (Iris flower dataset)
-2. Split dataset into training and testing sets
-3. Train DecisionTreeClassifier (tuning max_depth)
-4. Evaluate classification accuracy
-5. Export decision tree rule structure
-Week: 6
+
 """
 print("\n" + "=" * 70)
 print("TASK 53: Machine Learning - Decision Tree Classification")
@@ -181,12 +153,7 @@ print(tree_rules)
 """
 TASK 54: Machine Learning (Exercise on SVM - Support Vector Machine)
 Reference Link: https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
-Statement:
-Implement Support Vector Machine (SVM) Classification using scikit-learn:
-1. Train SVM with Linear Kernel
-2. Train SVM with Radial Basis Function (RBF) Kernel
-3. Compare classification accuracies and decision performance
-Week: 6
+
 """
 print("\n" + "=" * 70)
 print("TASK 54: Machine Learning - Support Vector Machine (SVM)")
@@ -215,14 +182,7 @@ print("to effectively separate complex boundaries, while Linear kernel is optima
 """
 TASK 55: Machine Learning (Exercise on Time Series Analysis)
 Reference Link: https://www.dataquest.io/blog/tutorial-time-series-analysis-with-pandas
-Statement:
-Implement Time Series Analysis with Pandas:
-1. Generate DateTime index using pd.date_range()
-2. Create time series with trend and weekly seasonality
-3. Resample data across different time intervals (Weekly / Monthly means)
-4. Compute rolling statistics (7-day moving average)
-5. Generate lag features for forecasting preparation
-Week: 6
+
 """
 print("\n" + "=" * 70)
 print("TASK 55: Machine Learning - Time Series Analysis with Pandas")
@@ -262,15 +222,7 @@ print(weekly_summary.head(4).round(2))
 """
 TASK 56: Machine Learning (Demonstration of Neural Networks from Scratch)
 Reference Link: https://www.analyticsvidhya.com/blog/2020/07/neural-networks-from-scratch-in-python-and-r
-Statement:
-Demonstrate an Artificial Neural Network built entirely from scratch using NumPy:
-1. Architecture: Input Layer (2 inputs), Hidden Layer (4 neurons), Output Layer (1 output)
-2. Activation: Sigmoid function and its derivative
-3. Loss: Mean Squared Error / Binary Cross-Entropy
-4. Forward Propagation (matrix transformations)
-5. Backpropagation using Chain Rule gradient computation
-6. Training on non-linear XOR truth table
-Week: 7
+
 """
 print("\n" + "=" * 70)
 print("TASK 56: Neural Network Implemented From Scratch (NumPy)")

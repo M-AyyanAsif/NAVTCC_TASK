@@ -1,22 +1,10 @@
-"""
-=============================================================================
-NAVTTC Artificial Intelligence (Machine Learning & Deep Learning) Tasks Sheet
-Tasks 11 to 20
-File: Task 11-20.py
-=============================================================================
-"""
 
 # =============================================================================
 # TASK 11
 # =============================================================================
 """
 TASK 11: Python (Simple 'if' Statement)
-Statement:
-i = 10
-if (i > 15):
-    print ("10 is less than 15")
-print ("I am Not in if")
-Week: 1
+
 """
 print("=" * 70)
 print("TASK 11: Python - Simple 'if' Statement Demonstration")
@@ -34,16 +22,7 @@ print("I am Not in if (Condition i > 15 evaluated to False for i = 10)")
 # =============================================================================
 """
 TASK 12: Python ('if-else' Statement)
-Statement:
-i = 20;
-if (i < 15):
-    print ("i is smaller than 15")
-    print ("i'm in if Block")
-else:
-    print ("i is greater than 15")
-    print ("i'm in else Block")
-print ("i'm not in if and not in else Block")
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 12: Python - 'if-else' Conditional Statement")
@@ -65,19 +44,7 @@ print("i'm not in if and not in else Block")
 # =============================================================================
 """
 TASK 13: Python (Nested 'if' Statement)
-Statement:
-i = 10
-if (i == 10):
-    # First if statement
-    if (i < 15):
-        print ("i is smaller than 15")
-    # Nested - if statement
-    # Will only be executed if statement above it is true
-    if (i < 12):
-        print ("i is smaller than 12 too")
-    else:
-        print ("i is greater than 15")
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 13: Python - Nested 'if' Statements")
@@ -101,17 +68,7 @@ if (i == 10):
 # =============================================================================
 """
 TASK 14: Python ('if-elif-else' Ladder)
-Statement:
-i = 20
-if (i == 10):
-    print ("i is 10")
-elif (i == 15):
-    print ("i is 15")
-elif (i == 20):
-    print ("i is 20")
-else:
-    print ("i is not present")
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 14: Python - 'if-elif-else' Ladder")
@@ -135,13 +92,7 @@ else:
 """
 TASK 15: Python (Exercise on 'for' Loops)
 Reference Link: https://www.geeksforgeeks.org/python-for-loops/
-Statement:
-Implement exercises demonstrating:
-1. Iteration over a list and string
-2. Using range(start, stop, step)
-3. Nested for loops
-4. The for-else construct
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 15: Python - Exercises on 'for' Loops")
@@ -184,12 +135,7 @@ else:
 """
 TASK 16: Python (Exercise on 'while' Loops)
 Reference Link: https://www.geeksforgeeks.org/python-while-loops/
-Statement:
-Implement exercises demonstrating:
-1. Basic counter-controlled while loop
-2. Condition-based summation
-3. The while-else construct
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 16: Python - Exercises on 'while' Loops")
@@ -228,11 +174,7 @@ else:
 """
 TASK 17: Python (Exercise on 'break' Statement)
 Reference Link: https://www.geeksforgeeks.org/python-break-statement/
-Statement:
-Implement exercises demonstrating:
-1. Terminating a loop early when a match is found
-2. Exiting an otherwise infinite loop safely
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 17: Python - Exercises on 'break' Statement")
@@ -265,11 +207,7 @@ while True:
 """
 TASK 18: Python (Exercise on 'continue' Statement)
 Reference Link: https://www.geeksforgeeks.org/python-continue-statement/
-Statement:
-Implement exercises demonstrating:
-1. Skipping odd numbers to only process even numbers
-2. Skipping specific unwanted tokens/values in a stream
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 18: Python - Exercises on 'continue' Statement")
@@ -298,14 +236,7 @@ print(f"\n2. Cleaned text (skipping hyphens): '{clean_text}'")
 """
 TASK 19: Python (Exercise on Various Looping Techniques)
 Reference Link: https://www.geeksforgeeks.org/looping-techniques-python/
-Statement:
-Demonstrate standard Pythonic looping techniques:
-1. enumerate() - index tracking
-2. zip() - parallel sequence iteration
-3. reversed() - reverse iteration
-4. sorted() - temporary ordered iteration
-5. dict.items() - key-value traversal
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 19: Python - Looping Techniques")
@@ -349,14 +280,7 @@ for subject, weeks in course_duration_weeks.items():
 """
 TASK 20: Python (Exercise on User Defined Functions)
 Reference Link: https://www.geeksforgeeks.org/functions-in-python/
-Statement:
-Implement exercises demonstrating:
-1. Simple function with arguments and return statement
-2. Default arguments
-3. Keyword arguments
-4. Arbitrary positional arguments (*args)
-5. Arbitrary keyword arguments (**kwargs)
-Week: 2
+
 """
 print("\n" + "=" * 70)
 print("TASK 20: Python - User Defined Functions")

@@ -1,10 +1,3 @@
-"""
-=============================================================================
-NAVTTC Artificial Intelligence (Machine Learning & Deep Learning) Tasks Sheet
-Tasks 41 to 50
-File: Task 41-50.py
-=============================================================================
-"""
 
 import io
 import statistics
@@ -18,12 +11,7 @@ from scipy import stats
 """
 TASK 41: Pandas (Exercise on Pandas Basics / Tutorial)
 Reference Link: https://www.w3schools.com/python/pandas_tutorial.asp
-Statement:
-Implement exercises demonstrating:
-1. Introduction to Pandas DataFrames and Series
-2. Creating a basic dataset for student scores
-3. Displaying structured tabular data
-Week: 3, 4
+
 """
 print("=" * 70)
 print("TASK 41: Pandas - Basics Tutorial Exercises")
@@ -48,12 +36,7 @@ print(f"\nDataFrame Dimensions: {df_basic.shape[0]} rows x {df_basic.shape[1]} c
 """
 TASK 42: Pandas (Exercise on Pandas Getting Started & Installation)
 Reference Link: https://www.w3schools.com/python/pandas_getting_started.asp
-Statement:
-Implement exercises demonstrating:
-1. Importing pandas as pd
-2. Checking installed Pandas version
-3. Creating a simple test DataFrame
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 42: Pandas - Installation & Getting Started")
@@ -77,13 +60,7 @@ print(cars_df)
 """
 TASK 43: Pandas (Exercise on Pandas Series Data)
 Reference Link: https://www.w3schools.com/python/pandas_series.asp
-Statement:
-Implement exercises demonstrating:
-1. Creating a Series from a Python list
-2. Creating custom index labels (e.g. ['day1', 'day2', 'day3'])
-3. Accessing items by label
-4. Creating a Series from a dictionary (Key/Value objects)
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 43: Pandas - Series Data Exercises")
@@ -114,12 +91,7 @@ print(s_dict)
 """
 TASK 44: Pandas (Exercise on Pandas Data Frame)
 Reference Link: https://www.w3schools.com/python/pandas_dataframes.asp
-Statement:
-Implement exercises demonstrating:
-1. Creating a DataFrame with multiple columns
-2. Locating rows using .loc[] (single row and list of rows)
-3. Using named row indexes and selecting named rows
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 44: Pandas - DataFrame Exercises")
@@ -151,12 +123,7 @@ print(f"\n   Selecting 'day2':\n{df_named.loc['day2']}")
 """
 TASK 45: Pandas (Exercise on Pandas Open CSV Files)
 Reference Link: https://www.w3schools.com/python/pandas_csv.asp
-Statement:
-Implement exercises demonstrating:
-1. Reading CSV data into a DataFrame using pd.read_csv()
-2. Using to_string() to display all rows
-3. Checking max_rows configuration
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 45: Pandas - CSV File Ingestion Exercises")
@@ -185,13 +152,7 @@ print(f"\nCurrent Pandas pd.options.display.max_rows = {pd.options.display.max_r
 """
 TASK 46: Pandas (Exercise on Pandas Data Analyzing)
 Reference Link: https://www.w3schools.com/python/pandas_analyzing.asp
-Statement:
-Implement exercises demonstrating:
-1. Previewing first N rows using head()
-2. Previewing last N rows using tail()
-3. Inspecting structural metadata using info()
-4. Generating statistical summary using describe()
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 46: Pandas - Data Analyzing Exercises")
@@ -225,13 +186,7 @@ print(df_analysis.describe())
 """
 TASK 47: Pandas (Exercise on Pandas Data Cleaning Techniques)
 Reference Link: https://www.w3schools.com/python/pandas_cleaning.asp
-Statement:
-Implement exercises demonstrating:
-1. Handling missing / empty values (dropna, fillna with mean/median)
-2. Fixing wrong date formats (pd.to_datetime)
-3. Fixing wrong / out-of-range values
-4. Removing duplicate records (drop_duplicates)
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 47: Pandas - Data Cleaning Exercises")
@@ -271,11 +226,7 @@ print(df_cleaned)
 """
 TASK 48: Pandas (Exercise on Pandas Data Correlation)
 Reference Link: https://www.w3schools.com/python/pandas_correlations.asp
-Statement:
-Implement exercises demonstrating:
-1. Calculating correlation matrix using df.corr()
-2. Interpreting positive, negative, and neutral relationships
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 48: Pandas - Correlation Exercises")
@@ -304,12 +255,7 @@ print(f"- TV_Hours vs Exam_Score      : {corr_matrix.loc['TV_Hours', 'Exam_Score
 """
 TASK 49: Stats (Perform Mean, Median, and Mode)
 Reference Link: https://www.w3schools.com/python/python_ml_mean_median_mode.asp
-Statement:
-Implement exercises calculating:
-1. Mean using np.mean()
-2. Median using np.median()
-3. Mode using statistics.mode() and scipy.stats.mode()
-Week: 2
+
 """
 print("\n" + "=" * 70)
 print("TASK 49: Statistics - Mean, Median, and Mode")
@@ -338,12 +284,7 @@ print(f"Mode (Most common value) : {mode_val} (scipy count: {scipy_mode.count[0]
 """
 TASK 50: Stats (Perform Standard Deviation & Variance)
 Reference Link: https://www.w3schools.com/python/python_ml_standard_deviation.asp
-Statement:
-Implement exercises calculating:
-1. Standard Deviation using np.std()
-2. Variance using np.var()
-3. Comparing low vs high spread datasets
-Week: 2
+
 """
 print("\n" + "=" * 70)
 print("TASK 50: Statistics - Standard Deviation and Variance")

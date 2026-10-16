@@ -1,10 +1,3 @@
-"""
-=============================================================================
-NAVTTC Artificial Intelligence (Machine Learning & Deep Learning) Tasks Sheet
-Tasks 31 to 40
-File: Task 31-40.py
-=============================================================================
-"""
 
 import numpy as np
 
@@ -14,12 +7,7 @@ import numpy as np
 """
 TASK 31: NumPy (Exercise on NumPy Data Types)
 Reference Link: https://www.w3schools.com/python/numpy_data_types.asp
-Statement:
-Implement exercises demonstrating:
-1. Checking array data type using .dtype
-2. Creating arrays with specified data types (string, int32, float32)
-3. Converting existing array data types using .astype()
-Week: 3, 4
+
 """
 print("=" * 70)
 print("TASK 31: NumPy - Data Types Exercises")
@@ -51,12 +39,7 @@ print(f"Converted to bool    : {converted_bool} | dtype: {converted_bool.dtype}"
 """
 TASK 32: NumPy (Exercise on NumPy Array Copy vs View)
 Reference Link: https://www.w3schools.com/python/numpy_copy_vs_view.asp
-Statement:
-Implement exercises demonstrating:
-1. Difference between copy() (owns data) and view() (shares data)
-2. Modifying original and observing effects on copy and view
-3. Checking data ownership via .base attribute
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 32: NumPy - Copy vs View Exercises")
@@ -86,11 +69,7 @@ print(f"arr_view.base (references data)  : {arr_view.base is original}")
 """
 TASK 33: NumPy (Exercise on NumPy Array Shape)
 Reference Link: https://www.w3schools.com/python/numpy_array_shape.asp
-Statement:
-Implement exercises demonstrating:
-1. Inspecting .shape for 1D, 2D, and multi-dimensional arrays
-2. Creating arrays with ndmin argument and inspecting resulting shape
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 33: NumPy - Array Shape Exercises")
@@ -115,13 +94,7 @@ print(f"Array created with ndmin=5 shape: {arr_5d.shape}")
 """
 TASK 34: NumPy (Exercise on NumPy Array Reshaping)
 Reference Link: https://www.w3schools.com/python/numpy_array_reshape.asp
-Statement:
-Implement exercises demonstrating:
-1. Reshaping 1D array to 2D (e.g. 12 elements into 4x3)
-2. Reshaping 1D array to 3D (e.g. 2x3x2)
-3. Using unknown dimension (-1)
-4. Flattening multi-dimensional arrays back to 1D
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 34: NumPy - Array Reshaping Exercises")
@@ -153,12 +126,7 @@ print(f"\nFlattened back to 1D:\n{flattened}")
 """
 TASK 35: NumPy (Exercise on NumPy Array Iterating)
 Reference Link: https://www.w3schools.com/python/numpy_array_iterating.asp
-Statement:
-Implement exercises demonstrating:
-1. Iterating through 1D and 2D arrays with standard loops
-2. Iterating multidimensional arrays using np.nditer()
-3. Iterating with custom step size using np.nditer()
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 35: NumPy - Array Iterating Exercises")
@@ -190,11 +158,7 @@ print()
 """
 TASK 36: NumPy (Exercise on NumPy Matrix / Array Joining)
 Reference Link: https://www.w3schools.com/python/numpy_array_join.asp
-Statement:
-Implement exercises demonstrating:
-1. Joining arrays using np.concatenate() along axis 0 and axis 1
-2. Stacking arrays using np.stack(), np.hstack(), np.vstack(), np.dstack()
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 36: NumPy - Matrix / Array Joining Exercises")
@@ -228,11 +192,7 @@ print(f"\nnp.dstack (stack along depth) shape: {dstack_result.shape}")
 """
 TASK 37: NumPy (Exercise on NumPy Array Splitting)
 Reference Link: https://www.w3schools.com/python/numpy_array_split.asp
-Statement:
-Implement exercises demonstrating:
-1. Splitting 1D array into N parts with np.array_split()
-2. Splitting 2D array with np.array_split(), np.hsplit(), np.vsplit()
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 37: NumPy - Array Splitting Exercises")
@@ -272,12 +232,7 @@ print(f"Right half:\n{h_splits[1]}")
 """
 TASK 38: NumPy (Exercise on NumPy Array Searching)
 Reference Link: https://www.w3schools.com/python/numpy_array_search.asp
-Statement:
-Implement exercises demonstrating:
-1. Finding element positions using np.where()
-2. Finding even and odd element indices
-3. Using np.searchsorted() for binary search insertion point
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 38: NumPy - Array Searching Exercises")
@@ -307,12 +262,7 @@ print(f"Index to insert 35 to maintain sort order: {insert_pos}")
 """
 TASK 39: NumPy (Exercise on NumPy Array Sorting)
 Reference Link: https://www.w3schools.com/python/numpy_array_sort.asp
-Statement:
-Implement exercises demonstrating:
-1. Sorting numeric arrays using np.sort()
-2. Sorting string and boolean arrays
-3. Sorting 2D arrays along axis 0 and axis 1
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 39: NumPy - Array Sorting Exercises")
@@ -342,13 +292,7 @@ print(f"Sorted along axis=0 (within each col):\n{np.sort(grid, axis=0)}")
 """
 TASK 40: NumPy (Exercise on NumPy Array Random Technique)
 Reference Link: https://www.w3schools.com/python/numpy_random.asp
-Statement:
-Implement exercises demonstrating:
-1. Generating random integers with np.random.randint()
-2. Generating random floats between 0 and 1 with np.random.rand()
-3. Selecting random elements using np.random.choice() with probabilities
-4. Shuffling arrays with np.random.permutation()
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 40: NumPy - Array Random Techniques")

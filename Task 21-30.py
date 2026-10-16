@@ -1,10 +1,3 @@
-"""
-=============================================================================
-NAVTTC Artificial Intelligence (Machine Learning & Deep Learning) Tasks Sheet
-Tasks 21 to 30
-File: Task 21-30.py
-=============================================================================
-"""
 
 import numpy as np
 
@@ -14,13 +7,7 @@ import numpy as np
 """
 TASK 21: Python (Exercise on List Data Type)
 Reference Link: https://www.programiz.com/python-programming/list
-Statement:
-Implement exercises demonstrating:
-1. List creation and indexing (positive & negative)
-2. Slicing lists
-3. List operations and methods (append, extend, insert, remove, pop)
-4. List comprehensions
-Week: 1
+
 """
 print("=" * 70)
 print("TASK 21: Python - List Data Type Exercises")
@@ -59,12 +46,7 @@ print(f"List comprehension (squares of 1-5): {squares}")
 """
 TASK 22: Python (Exercise on Tuple Data Type)
 Reference Link: https://www.programiz.com/python-programming/tuple
-Statement:
-Implement exercises demonstrating:
-1. Tuple creation (single & multiple elements)
-2. Tuple immutability demonstration
-3. Tuple indexing and slicing
-4. Tuple unpacking and methods (count, index)
+
 Week: 1
 """
 print("\n" + "=" * 70)
@@ -99,12 +81,7 @@ print(f"Unpacked point_3d (x={x}, y={y}, z={z})")
 """
 TASK 23: Python (Exercise on String Data Type)
 Reference Link: https://www.programiz.com/python-programming/string
-Statement:
-Implement exercises demonstrating:
-1. String indexing and slicing
-2. Common string methods (upper, lower, strip, replace, split, join)
-3. String formatting with f-strings
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 23: Python - String Data Type Exercises")
@@ -141,12 +118,7 @@ print(f"F-String formatting    : Student {name} is enrolled in {domain}.")
 """
 TASK 24: Python (Exercise on Set Data Type)
 Reference Link: https://www.programiz.com/python-programming/set
-Statement:
-Implement exercises demonstrating:
-1. Set creation and uniqueness of elements
-2. Adding and removing elements
-3. Mathematical set operations (Union, Intersection, Difference, Symmetric Difference)
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 24: Python - Set Data Type Exercises")
@@ -181,13 +153,7 @@ print(f"Symmetric Difference (A ^ B)   : {set_a ^ set_b}")
 """
 TASK 25: Python (Exercise on Dictionary Data Type)
 Reference Link: https://www.programiz.com/python-programming/dictionary
-Statement:
-Implement exercises demonstrating:
-1. Dictionary creation and element access
-2. Adding, updating, and removing items
-3. Iterating through keys, values, and key-value pairs
-4. Dictionary comprehension
-Week: 1
+
 """
 print("\n" + "=" * 70)
 print("TASK 25: Python - Dictionary Data Type Exercises")
@@ -225,11 +191,7 @@ print(f"Dictionary comprehension (n: n^2): {square_dict}")
 """
 TASK 26: Python (Exercise on Exception Handling)
 Reference Link: https://www.programiz.com/python-programming/exception-handling
-Statement:
-Implement exercises demonstrating:
-1. try, except, else, and finally blocks
-2. Catching specific exceptions (ZeroDivisionError, ValueError, KeyError)
-Week: 2
+
 """
 print("\n" + "=" * 70)
 print("TASK 26: Python - Exception Handling Exercises")
@@ -259,12 +221,7 @@ divide_numbers(100, 0)
 """
 TASK 27: Python (Exercise on User Defined Exception Handling)
 Reference Link: https://www.programiz.com/python-programming/user-defined-exception
-Statement:
-Implement exercises demonstrating:
-1. Creating a custom exception class inheriting from Exception
-2. Raising the custom exception upon condition violation
-3. Handling the custom exception gracefully
-Week: 2
+
 """
 print("\n" + "=" * 70)
 print("TASK 27: Python - User Defined Exception Handling")
@@ -299,12 +256,7 @@ verify_candidate_eligibility(42)
 """
 TASK 28: NumPy (Exercise on NumPy Array Creation)
 Reference Link: https://www.w3schools.com/python/numpy_creating_arrays.asp
-Statement:
-Implement exercises demonstrating:
-1. Creating 0-D, 1-D, 2-D, and 3-D arrays using np.array()
-2. Checking array dimensions using .ndim
-3. Built-in array creation (zeros, ones, arange, linspace)
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 28: NumPy - Array Creation Exercises")
@@ -339,12 +291,7 @@ print(f"np.linspace(0, 1, 5): {linspace_arr}")
 """
 TASK 29: NumPy (Exercise on NumPy Array Indexing)
 Reference Link: https://www.w3schools.com/python/numpy_array_indexing.asp
-Statement:
-Implement exercises demonstrating:
-1. 1D Array indexing and negative indexing
-2. 2D Array indexing accessing rows and columns: arr[row, col]
-3. Multi-dimensional element extraction
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 29: NumPy - Array Indexing Exercises")
@@ -371,12 +318,7 @@ print(f"Last row, last column [-1, -1] : {arr_2d[-1, -1]}")
 """
 TASK 30: NumPy (Exercise on NumPy Array Slicing)
 Reference Link: https://www.w3schools.com/python/numpy_array_slicing.asp
-Statement:
-Implement exercises demonstrating:
-1. 1D Array slicing with [start:end:step]
-2. 2D Array slicing across rows and columns
-3. Extracting sub-matrices
-Week: 3, 4
+
 """
 print("\n" + "=" * 70)
 print("TASK 30: NumPy - Array Slicing Exercises")
